@@ -1,7 +1,7 @@
 class persona:
     def __init__(self, nombre, edad, altura,):
         self.nombre = nombre
-        self.edad = edad
+        self.edad = eda
         self.altura = altura
 
     def obtener_nombre(self):
@@ -14,7 +14,7 @@ class persona:
         return self.edad
 
     def establecer_edad(self, edad):
-        self.edad = edad
+        self.edad = eda
 
     def obtener_altura(self):
         return self.altura
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     persona1 = persona("Juan", 30, 1.75)
 
     print(f"Nombre: {persona1.obtener_nombre()}")
-    print(f"Edad: {persona1.obtener_edad()}")
+    print(f"Edad: {persona1.obtener_eda()}")
     print(f"Altura: {persona1.obtener_altura()} m")
 
     persona1.establecer_nombre("Carlos")
