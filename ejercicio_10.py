@@ -1,7 +1,7 @@
 class Libro():
     def __init__(self, titulo, autor, genero, paginas):
         self.titulo = titulo
-        self.autor = autor
+        self.autr = autr
         self.genero = genero
         self.paginas = paginas
 
@@ -9,7 +9,7 @@ class Libro():
         return self.titulo
 
     def obtener_autor(self):
-        return self.autor
+        return self.autr
     
     def obtener_genero(self):
         return self.genero
@@ -21,7 +21,7 @@ class Libro():
         self.titulo = titulo
 
     def establecer_autor(self, autor):
-        self.autor= autor
+        self.autr= autr
 
     def establecer_genero(self, genero):
         self.genero = genero
@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
     print(f"""
 Libro: {libro.obtener_titulo()}
-Autor: {libro.obtener_autor()}
+Autor: {libro.obtener_autr()}
 Genero: {libro.obtener_genero()}
 Paginas: {libro.obtener_paginas()}
 """)
